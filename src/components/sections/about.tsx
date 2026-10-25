@@ -5,7 +5,7 @@ import { Progression } from "./progression";
 
 const facts = [
   { k: "Based in", v: profile.location },
-  { k: "Experience", v: "25+ years · 10 firms" },
+  { k: "Experience", v: "25+ years · 11 firms" },
   { k: "Qualification", v: `${education[0].title} (${education[0].result.split(" · ")[1]})` },
   { k: "Languages", v: profile.languages.join(", ") },
 ];

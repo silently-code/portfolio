@@ -63,6 +63,14 @@ export function Hero() {
               >
                 Get in touch
               </a>
+<a
+                href={profile.resume}
+                download="Vijay-Kumar-B-Singh-Resume.pdf"
+                className="inline-flex items-center justify-center gap-2 rounded-md border border-navy/25 bg-surface px-5 py-3 text-[0.95rem] font-semibold text-navy transition-colors hover:border-navy hover:bg-sand"
+              >
+                <svg aria-hidden viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg>
+                Download resume
+              </a>
               <a
                 href="#experience"
                 className="group inline-flex items-center justify-center gap-2 rounded-md border border-line bg-surface px-5 py-3 text-[0.95rem] font-semibold text-ink transition-colors hover:border-navy/30"
@@ -79,7 +87,7 @@ export function Hero() {
             <dl className="grid grid-cols-2 gap-x-6 gap-y-8 border-t border-line pt-8 sm:grid-cols-4 md:grid-cols-2 lg:grid-cols-4">
               {stats.map((s) => (
                 // Label first in the DOM (dt → dd, read once by screen readers), number shown first visually
-                <div key={s.label} className="flex flex-col-reverse">
+                <div key={s.label} className="flex flex-col-reverse justify-end">
                   <dt className="mt-2 max-w-[10rem] text-[0.85rem] leading-snug text-muted">{s.label}</dt>
                   <dd>
                     <CountUp value={s.value} className="block text-[clamp(1.75rem,7vw,2rem)] font-extrabold leading-none tracking-tight text-navy tabular-nums" />

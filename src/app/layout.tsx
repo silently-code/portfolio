@@ -14,12 +14,12 @@ const manrope = Manrope({
 
 
 const description =
-  "Civil engineer with 25 years on Mumbai construction sites: project management, PMC, R.A. bill certification, quantity surveying and quality control on residential towers, commercial complexes and industrial projects.";
+  "Project Manager and civil engineer with 25 years on Mumbai construction sites: project management, PMC, Mivan formwork, quantity surveying, BOQ and R.A. billing, and quality control on high-rise residential, commercial and industrial projects.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: `${profile.name} | Civil Engineer & Project Management, Mumbai`,
+    default: `${profile.name} | Project Manager & Civil Engineer, Mumbai`,
     template: `%s | ${profile.name}`,
   },
   description,

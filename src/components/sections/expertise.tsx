@@ -11,7 +11,7 @@ export function Expertise() {
         <SectionHeader
           eyebrow="Expertise"
           title="What I take responsibility for on a project"
-          lead="The work that keeps a building on schedule, within budget and built to drawing, from the first pour to the final bill."
+          lead="The work that keeps a building on schedule, within budget and true to the drawings, from the first pour to the final bill."
         />
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 md:mt-14 lg:grid-cols-3">

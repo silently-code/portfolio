@@ -9,8 +9,8 @@ export function Experience() {
       <div className="container-page">
         <SectionHeader
           eyebrow="Experience"
-          title="Ten firms over 25 years"
-          lead="Every role, newest first, with the project delivered and what I was responsible for."
+          title="Eleven firms over 25 years"
+          lead="Every role, most recent first, with the project and my responsibilities on it."
         />
 
         <TimelineTrack>

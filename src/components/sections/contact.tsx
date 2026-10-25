@@ -24,7 +24,7 @@ export function Contact() {
               tone="dark"
               eyebrow="Contact"
               title="Let's talk about your next project"
-              lead={`${profile.availability} The quickest way to reach me is by phone or WhatsApp; email works too.`}
+              lead={`${profile.availability} The quickest way to reach me is by phone or WhatsApp, and I also reply to email.`}
             />
             <Reveal delay={0.3}>
               <div className="mt-9 flex flex-col gap-3 min-[400px]:flex-row min-[400px]:flex-wrap">
@@ -33,6 +33,14 @@ export function Contact() {
                   className="inline-flex items-center justify-center gap-2 rounded-md bg-copper-light px-5 py-3 text-[0.95rem] font-semibold text-navy-deep transition-colors hover:bg-[#ebb878]"
                 >
                   Call {profile.phone}
+                </a>
+                <a
+                  href={profile.resume}
+                  download="Vijay-Kumar-B-Singh-Resume.pdf"
+                  className="inline-flex items-center justify-center gap-2 rounded-md border border-white/20 px-5 py-3 text-[0.95rem] font-semibold text-white transition-colors hover:border-white/50"
+                >
+                  <svg aria-hidden viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14" /></svg>
+                  Download resume
                 </a>
                 <a
                   href={`mailto:${profile.email}`}

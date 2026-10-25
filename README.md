@@ -1,6 +1,6 @@
 # Vijay Kumar B. Singh — Civil Engineer Portfolio
 
-A personal portfolio site for **Vijay Kumar B. Singh**, a civil engineer with 25 years on Mumbai construction sites. His work covers project management, PMC, R.A. bill certification, quantity surveying and quality control on residential towers, commercial complexes and industrial projects.
+A personal portfolio site for **Vijay Kumar B. Singh**, a Project Manager and civil engineer with 25 years on Mumbai construction sites. His work covers project management, PMC, Mivan/steel/ply formwork, quantity surveying and BOQ, R.A. billing and quality control on high-rise residential, commercial and industrial projects. Visitors can download his resume as a PDF.
 
 The site is written for three kinds of reader: **civil engineers**, **project managers** and **company leadership**. It is calm, clean and easy to scan:
 - The key facts are on the first screen.
@@ -71,14 +71,14 @@ Other device support:
 
 ## Page Sections
 
-1. **Hero:** name, title, a one-paragraph summary, key figures (25+ years, 10 projects, 8.24 lakh sq.ft., 25 storeys), a portrait and the current project.
+1. **Hero:** name, title, a one-paragraph summary, key figures (25+ years, 11 projects, 8.24 lakh sq.ft., 25 storeys), a **Download resume** button, and a portrait with the "On site since 2001" tag above it and the current project card below it.
 2. **Organisations:** a quiet strip naming the companies whose projects he has worked on.
 3. **About:** a short background, key facts, and a career progression from 2001 to today.
 4. **Expertise:** six areas of responsibility: coordination, cost control and billing, quantity surveying, quality, planning and team leadership.
-5. **Experience:** a timeline of all ten roles, each with its project, configuration and responsibilities.
-6. **Projects:** ten project cards, each with a schematic elevation drawing.
+5. **Experience:** a timeline of all eleven roles, each with its project, configuration and responsibilities.
+6. **Projects:** eleven project cards, each with a schematic elevation drawing.
 7. **Education & training:** the diploma, certifications, skills and languages.
-8. **Contact:** phone, WhatsApp and email (with a copy button), plus location.
+8. **Contact:** phone, WhatsApp, email (with a copy button), location and a resume download.
 
 ---
 
@@ -124,6 +124,7 @@ All text, roles, projects, skills and education live in **`src/data/resume.ts`**
 
 - **Add a role:** add an entry to `experience`. The newest role goes first. Update `progression` if the title changes.
 - **Add a project:** add an entry to `projects`. Describe its `blocks` (floors, basements, podium, stilt, terrace) and the elevation drawing is generated automatically.
+- **Update the downloadable resume:** replace `public/Vijay-Kumar-B-Singh-Resume.pdf` (keep the same file name).
 - **Replace the portrait:** swap `src/assets/portrait-cutout.png`. A transparent-background PNG looks best.
 - **Add a real project photo:** put the image in `public/projects/` and add a `photo` to that project in `resume.ts`, for example `photo: { src: "/projects/meridian.jpg", alt: "Meridian Towers under construction", credit: "Photo: V. K. B. Singh" }`. The card then shows the photo instead of the drawing. Only use photos you took yourself or have permission to use.
 

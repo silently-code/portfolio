@@ -11,7 +11,7 @@ export function Projects() {
       <div className="container-page">
         <SectionHeader
           eyebrow="Projects"
-          title="Ten projects, from factory sheds to 25-storey towers"
+          title="Eleven projects, from factory sheds to 25-storey towers"
           lead="Residential, commercial and industrial buildings across Mumbai, Thane, Virar, Boisar and Dolvi. Each drawing is a schematic elevation based on the building's configuration (not to scale)."
         />
 
